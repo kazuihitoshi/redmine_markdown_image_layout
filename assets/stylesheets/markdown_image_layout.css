@@ -1,0 +1,56 @@
+/*
+ * Copyright 2026 kazuihitoshi@gmail.com
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ */
+
+.markdown-image-layout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  width: 100%;
+  margin: 0.6em 0;
+  clear: both;
+}
+
+.markdown-image-layout img {
+  flex: 0 0 30%;
+  width: 30% !important;
+  min-width: 30%;
+  max-width: 30% !important;
+  height: auto !important;
+  box-sizing: border-box;
+  cursor: zoom-in;
+  vertical-align: top;
+}
+
+body.markdown-image-layout-open {
+  overflow: hidden;
+}
+
+.markdown-image-layout-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 10050;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(0, 0, 0, 0.86);
+  cursor: zoom-out;
+}
+
+.markdown-image-layout-lightbox img {
+  width: auto !important;
+  min-width: 0 !important;
+  max-width: 92vw !important;
+  height: auto !important;
+  max-height: 92vh;
+  cursor: zoom-out;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+}

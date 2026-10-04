@@ -1,0 +1,3 @@
+ja:
+  markdown_image_layout_name: Markdown 画像の表示サイズ
+  markdown_image_layout_description: Markdown の画像を横幅の30%で表示します。空行がなければ横に並べ、空行があれば次の行にします。クリックで拡大表示します。

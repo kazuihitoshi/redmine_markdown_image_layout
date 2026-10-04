@@ -1,0 +1,3 @@
+en:
+  markdown_image_layout_name: Markdown Image Layout
+  markdown_image_layout_description: Shows Markdown images at 30% of the text width, side by side unless a blank line separates them, and full size when clicked.
